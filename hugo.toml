@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+title = 'AltSoc'
+theme = "hugo-bearcub"
+defaultContentLanguage = 'ru'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Infrastructure'
+    url = '/infrastructure'
+    weight = 20
+  [[menus.main]]
+    name = 'Our Values'
+    url = '/values'
+    weight = 30
+    
+
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 1
+
+  [languages.ru]
+    languageCode = 'ru-RU'
+    languageName = 'Russian'
+    weight = 2
+    
