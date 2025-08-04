@@ -2,6 +2,7 @@ baseURL = 'https://an-re-io.github.io/alt-soc-site/'
 title = 'AltSoc'
 theme = "hugo-bearcub"
 defaultContentLanguage = 'ru'
+canonifyURLs = true
 
 [menus]
   [[menus.main]]
@@ -10,11 +11,11 @@ defaultContentLanguage = 'ru'
     weight = 10
   [[menus.main]]
     name = 'Infrastructure'
-    url = '/infrastructure'
+    url = 'infrastructure'
     weight = 20
   [[menus.main]]
     name = 'Our Values'
-    url = '/values'
+    url = 'values'
     weight = 30
     
 
