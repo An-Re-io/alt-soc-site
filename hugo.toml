@@ -11,11 +11,11 @@ canonifyURLs = true
     weight = 10
   [[menus.main]]
     name = 'Infrastructure'
-    url = 'infrastructure'
+    url = '/infrastructure/'
     weight = 20
   [[menus.main]]
     name = 'Our Values'
-    url = 'values'
+    url = '/values/'
     weight = 30
     
 

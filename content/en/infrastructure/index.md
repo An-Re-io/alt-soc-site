@@ -1,5 +1,6 @@
 +++
 title = 'Infrastructure'
+menus = 'footer'
 +++
 
 ## Our Virtual Space
